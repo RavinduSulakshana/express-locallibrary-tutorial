@@ -21,4 +21,4 @@ AuthorSchema.virtual("url").get(function () {
   return `catalog/author/${this._id}`;
 });
 
-MediaSourceHandle.exports = mongoose.model("Author", AuthorSchema);
+module.exports = mongoose.model("Author", AuthorSchema);

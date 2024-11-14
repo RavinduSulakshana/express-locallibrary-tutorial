@@ -7,9 +7,7 @@ exports.author_list = asyncHandler(async (req, res, next) => {
 
 exports.author_details = asyncHandler(async (req, res, next) => {
   res.send(`Not implemented : Author details :${req.params.id}`);
-});xit
-exit
-
+});
 
 //display author create form  on get
 exports.author_create_get = asyncHandler(async (req, res, next) => {
@@ -30,7 +28,6 @@ exports.author_delete_get = asyncHandler(async (req, res, next) => {
 exports.author_delete_post = asyncHandler(async (req, res, next) => {
   res.send("not implemented: author delete post");
 });
-
 
 //display author update form  on get
 exports.author_update_get = asyncHandler(async (req, res, next) => {
