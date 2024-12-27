@@ -12,6 +12,10 @@ const catalogRouter = require("./routes/catalog");
 
 const app = express();
 
+app.listen(3000, () => {
+  console.log("server is running on port 3000");
+});
+
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");
